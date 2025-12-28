@@ -1,4 +1,6 @@
 require("dotenv").config();
+const keepAlive = require("./keepalive");
+keepAlive();
 
 const {
   Client,
